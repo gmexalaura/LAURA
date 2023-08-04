@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap" rel="stylesheet">
+    <link rel="icono" href="img/iconolaura.png"> 
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<script>
+    //funcion para un mensaje emergente
+    function enviar(){
+        alert("sus datos fueron enviados")
+    }
+
+</script>
+<body>
+    <header>
+
+    <h1>¿Que son los formularios?</h1>
+    </header>
+
+
+<div class="contenido">
+<div class="formulario basico" action="#">
+    <div class="titulo">
+    <h2>entradas basicas</h2>
+    </div>
+<div class="entrada">
+    <label> tipo texto </label>
+    <input type="text" placeholder="Nombre Completo">
+</div>
+</div>
+<div class="entrada">
+    <label> tipo email </label>
+    <input type="email" placeholder="ejemplo@gmail.com">
+</div>
+<div class="entrada">
+    <label entrada tipo fecha></label>
+    <input type="date">
+   </div>
+<div class="entrada">
+    <label> tipo menu desplegable </label>
+    <select name="select">
+        <option value="">opcion 1</option>
+        <option value="">opcion 2</option>
+        <option value="">opcion 3</option>
+    </select>
+</div>
+<div class="entrada">
+<label entrada password></label>
+<input type="password"placeholder="Ejemplo1234*">
+</div>
+
+
+<div class="entrada">
+    <label>tipo caja de verificacion circular></label>
+<div class="opciones">
+    <div>
+        <label>
+            <input type="radio" name="radio">
+                             <span>Opcion 1</span>
+        </label>
+    </div>
+
+    <div>
+         <label>
+                 <input type="radio" name="radio">
+                  <span>Opcion 2</span>
+            </label>
+    </div>
+    <div>
+        <label>
+                <input type="radio" name="radio">
+                <span>Opcion 3</span>
+            </label>
+        </div>
+    </div>
+</div>
+
+<div class="entrada">
+    <label>tipo area grande de texto (300++ catacteres)</label>
+    <textarea name="textarea"></textarea>
+</div>
+<div class="entrada">
+    <label>Entrada tipo caja de verificacion</label>
+    <input type="checkbox"><label >Acepto terminos</label>
+</div>
+
+<div class="boton">
+    <input type="button" value="enviar" onclick="enviar()">
+</div>
+<input type="checkbox"> <label acepto terminos></label>
+
+
+ <div class="menu">
+ <ul>
+ <li><a href="index.html">inicio</a></li>
+     <li><a href="basico.html" class="active">Basico</a></li>
+     <li><a href="basico.html">Registro</a></li>
+     <li><a href="basico.html">Iiniciar sesion</a></li>
+     <li><a href="basico.html">Validacion</a></li>
+     <li><a href="basico.html">Busqueda</a></li>
+    </ul>
+    </div>
+    
+</body>
+</html>
